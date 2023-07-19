@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evoting System</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="form">
+      <form action="main.html">
+        <div class="red">
+        <h1>E-VOTING SYSTEM</h1>
+      </div>
+        <table>
+          <tr>
+            <td><label>Name:</label></td>
+            <td><input type="text" name="name" placeholder="Enter Your Name" style="color: black;" required></td>
+          </tr>
+          <tr>
+            <td><label>Father Name:</label></td>
+            <td><input type="text" name="Father name" placeholder="Enter Your Father Name" style="color: black;"></td>
+          </tr>
+          <tr>
+            <td><label>DOB:</label></td>
+            <td><input type="date" name="dob" placeholder="Date of birth" style="color: black;" required></td>
+          </tr>
+          
+          <tr>
+            <td><label>Voter ID:</label></td>
+            <td><input type="number" name="Voter ID" placeholder="Enter Your Voter ID" required ></td>
+          </tr>
+          <tr>
+            <td><label>Political Parties:</label></td>
+            <td>
+              <select name="Political" required>
+                <option value="Null" > Choose Political Party</option>
+                <option value="DMK">DMK</option>
+                <option value="ADMK">ADMK</option>
+                <option value="BJP">BJP</option>
+                <option value="CONGRESS">CONGRESS</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+        <div class="read">
+        <input type="submit" name="submit" value="submit">
+      </div>
+      </form>
+    </div>
+  </body>
+</html>
